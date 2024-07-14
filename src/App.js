@@ -13,6 +13,7 @@ function App() {
   return (
     <div>
       <Router>
+      <Header/>
         <Routes>
           <Route exact path="/home" element={<Home/>}></Route>
           <Route exact path="/tech" element={<Tech/>}></Route>
@@ -21,12 +22,6 @@ function App() {
           <Route exact path="/bottom" element={<Bottom/>}></Route>
         </Routes>
       </Router>
-      <Header />
-      <Home />
-      <Tech />
-      <Projects />
-      <Getcontact />
-      <Bottom />
     </div>
   );
 }
