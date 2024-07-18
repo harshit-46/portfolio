@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     return (
         <div className="">
-            <div className="flex bg-black border-2">
+            <div className="flex bg-black backdrop-blur-sm sticky top-0">
                 <nav className="w-full bg-black text-base leading-6 font-semibold dark:text-white">
                     <Link className="inline-block" to="/home"><img src={IMAGES.imgfour} alt="" height="80" width="80" className="ml-20 mt-4" /></Link>
-                    <div className="w-96 inline-block border-2">
+                    <div className="w-96 inline-block">
                         <ul className='grid grid-cols-4'>
                             <li><Link to="/home">Home</Link></li>
                             <li><Link to="/tech">Tech</Link></li>
