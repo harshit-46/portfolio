@@ -2,9 +2,11 @@ import React from 'react'
 
 const Tech = () => {
     return (
-        <div>
-            This is a Tech component.
-        </div>
+        <>
+            <div>
+                This is a Tech component.
+            </div>
+        </>
     )
 }
 

@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Getcontact from './components/Getcontact';
 import Bottom from './components/Bottom';
 import Welcome from './components/Welcome';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
         <Routes>
           <Route exact path="/welcome" element={<Welcome/>}></Route>
           <Route exact path="/home" element={<Home/>}></Route>
-          <Route exact path="/tech" element={<Tech/>}></Route>
+          <Route exact path="/skills" element={<Tech/>}></Route>
           <Route exact path="/projects" element={<Projects/>}></Route>
           <Route exact path="/contact" element={<Getcontact/>}></Route>
+          <Route exact path="/resume" element={<Resume/>}></Route>
           <Route exact path="/bottom" element={<Bottom/>}></Route>
         </Routes>
       </Router>

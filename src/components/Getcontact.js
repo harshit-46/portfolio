@@ -2,9 +2,11 @@ import React from 'react'
 
 const Getcontact = () => {
     return (
-        <div>
-            This is a contact component.
-        </div>
+        <>
+            <div>
+                This is a contact.
+            </div>
+        </>
     )
 }
 

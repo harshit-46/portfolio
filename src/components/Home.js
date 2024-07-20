@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <div className="w-full" id="root-home-container">
-                <div className="mt-20">
+                <div id="home-start">
                     this is a home div.
                 </div>
             </div>

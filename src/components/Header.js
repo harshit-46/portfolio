@@ -1,5 +1,4 @@
 import React from 'react'
-import '../App.css';
 import IMAGES from '../icons/images'
 import { Link } from 'react-router-dom'
 
@@ -10,10 +9,11 @@ const Header = () => {
                 <nav className="w-full text-white" id="navbar">
                     <Link className="inline-block" to="/welcome"><img src={IMAGES.imgfour} alt="" height="80" width="80" className="ml-24" /></Link>
                     <div className="w-96 inline-block" id="nav-div">
-                        <ul className='grid grid-cols-4'>
+                        <ul className='grid grid-cols-5'>
                             <li><Link to="/home">Home</Link></li>
-                            <li><Link to="/tech">Tech</Link></li>
-                            <li><Link to="/projects">Project</Link></li>
+                            <li><Link to="/skills">Skills</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>

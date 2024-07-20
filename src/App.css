@@ -2,10 +2,6 @@
   height: 1500px;
 }
 
-#nav-div {
-  border: 2px solid blue;
-}
-
 #nav-root {
   background: black;
   height: 60px;
@@ -17,7 +13,7 @@
 }
 
 #welcome-main {
-  height:100vh;
+  height:95vh;
   margin-top: 60px;
   padding-top: 40px;
   background-color: #FCA17D;
@@ -26,4 +22,8 @@
   font-weight: 400;
   font-size: 80px;
   font-style: normal;
+}
+
+#welcome-text {
+  display: inline-block;
 }
