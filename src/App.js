@@ -8,6 +8,7 @@ import Tech from './components/Tech';
 import Projects from './components/Projects';
 import Getcontact from './components/Getcontact';
 import Bottom from './components/Bottom';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Router>
       <Header/>
         <Routes>
+          <Route exact path="/welcome" element={<Welcome/>}></Route>
           <Route exact path="/home" element={<Home/>}></Route>
           <Route exact path="/tech" element={<Tech/>}></Route>
           <Route exact path="/projects" element={<Projects/>}></Route>

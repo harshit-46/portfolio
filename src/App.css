@@ -2,12 +2,28 @@
   height: 1500px;
 }
 
-#nav-div{
+#nav-div {
   border: 2px solid blue;
-  margin-left: 100px;
 }
 
-#nav-root{
+#nav-root {
   background: black;
-  border: 2px solid red;
+  height: 60px;
+  align-items: center;
+}
+
+#github-logo {
+  margin-left: 870px;
+}
+
+#welcome-main {
+  height:100vh;
+  margin-top: 60px;
+  padding-top: 40px;
+  background-color: #FCA17D;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 80px;
+  font-style: normal;
 }
