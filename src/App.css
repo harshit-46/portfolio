@@ -25,5 +25,17 @@
 }
 
 #welcome-text {
+  margin: 65px 0px 0px 160px;
   display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#hello {
+  display: inline-block;
+}
+
+#arrow-icon {
+  margin: 10px 0px 0px 200px;
 }
